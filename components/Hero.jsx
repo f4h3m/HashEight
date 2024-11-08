@@ -23,7 +23,7 @@ export default function Hero() {
                         Hasheight is used by numerous businesses, institutions, and recruiters to significantly enhance their screening and recruitment procedures.
                     </p>
                     <div className="flex justify-center mt-6">
-                        <Button variant="secondary" className="text-center">
+                        <Button className="text-center">
                             Get Started
                         </Button>
                     </div>

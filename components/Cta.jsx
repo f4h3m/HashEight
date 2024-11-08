@@ -13,7 +13,7 @@ export default function Cta() {
                         Get software that fits <br />
                         you perfectly
                     </h2>
-                    <Button variant='secondary'>Talk to us</Button>
+                    <Button>Talk to us</Button>
                 </div>
                 <div className="w-1/2">
                     <Image src={CtaImg} alt="Cta Image" className='absolute bottom-0 right-0' />

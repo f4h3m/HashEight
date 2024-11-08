@@ -21,7 +21,7 @@ export default function Info() {
                     <p className='mb-6 max-w-[480px]'>
                         With dummy, all your teams data is autmatically imported, organized and updated. Easily custom the task for team as well. Consume the brief from many client and work together with team.
                     </p>
-                    <Button variant="secondary">
+                    <Button>
                         Learn More
                     </Button>
                 </div>

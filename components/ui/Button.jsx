@@ -1,14 +1,14 @@
 
 import React from 'react';
 
-const Button = ({ children, onClick, variant = 'primary' }) => {
+const Button = ({ children, variant = 'primary' }) => {
     const buttonStyles = {
-        secondary:
+        primary:
             'bg-white text-black font-bold py-2 px-8 rounded',
     };
 
     return (
-        <button className={buttonStyles[variant]} onClick={onClick}>
+        <button className={buttonStyles[variant]}>
             {children}
         </button>
     );
