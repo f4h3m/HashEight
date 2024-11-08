@@ -9,6 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        "yellow-clr": "#F8FF37",
+        "cyan-clr": "#0FEFFF",
+        "turquoise-clr": "#1AE7AD",
+        "green-clr": "#1ED760",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
