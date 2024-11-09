@@ -16,6 +16,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        marquee: "marquee 20s linear infinite",
+        scroll: "scroll 20s linear infinite",
+      },
     },
   },
   plugins: [],

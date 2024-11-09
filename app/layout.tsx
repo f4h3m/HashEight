@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const urbanist = localFont({
   src: [
     {
@@ -41,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${urbanist.variable} font-sans antialiased`}>
+        <Analytics />
         {children}
       </body>
     </html>
