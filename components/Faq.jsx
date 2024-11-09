@@ -9,7 +9,7 @@ export default function Faq() {
                     What would you like to <br />
                     know about Us?
                 </h1>
-                <Button>
+                <Button href='/'>
                     Talk to us
                 </Button>
             </div>

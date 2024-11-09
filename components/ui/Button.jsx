@@ -1,7 +1,8 @@
 
+import Link from 'next/link';
 import React from 'react';
 
-const Button = ({ children, variant = 'primary' }) => {
+const Button = ({ children, variant = 'primary', href }) => {
     const buttonStyles = {
         primary:
             'bg-white text-black font-bold py-2 px-8 rounded',
@@ -9,7 +10,9 @@ const Button = ({ children, variant = 'primary' }) => {
 
     return (
         <button className={buttonStyles[variant]}>
-            {children}
+            <Link href={href}>
+                {children}
+            </Link>
         </button>
     );
 };
