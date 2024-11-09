@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import logo1 from "@/public/logo/logo1.svg";
 import logo2 from "@/public/logo/logo2.svg";
