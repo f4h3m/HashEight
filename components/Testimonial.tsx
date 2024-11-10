@@ -7,7 +7,7 @@ import userImg3 from "@/public/user-img3.jpg";
 
 export default function Testimonial() {
   return (
-    <div className="py-20">
+    <div className="py-20" id="testimonial">
       <div className="container mx-auto flex justify-center">
         <div className="w-1/2">
           <h4 className="text-center uppercase text-turquoise-clr font-semibold">

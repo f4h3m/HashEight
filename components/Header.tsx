@@ -1,36 +1,34 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import Logo from '@/public/logo.svg'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import Logo from "@/public/logo.svg";
+import Menu from "./ui/Menu";
 
 export default function Header() {
-    return (
-        <header className='grid grid-cols-2 justify-between items-center py-4 relative'>
-            <Link href="/">
-                <Image src={Logo} alt='HashEight Logo' />
-            </Link>
-            <ul className='flex justify-end gap-8 font-bold'>
-                <li>
-                    <Link href="/">
-                        Features
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/">
-                        Pricing
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/">
-                        Blog
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/">
-                        Contact
-                    </Link>
-                </li>
-            </ul>
-        </header>
-    )
+  const items = [
+    {
+      name: "Info",
+      link: "#info",
+    },
+    {
+      name: "Feature",
+      link: "#feature",
+    },
+    {
+      name: "Faq",
+      link: "#faq",
+    },
+    {
+      name: "Testimonial",
+      link: "#testimonial",
+    },
+  ];
+  return (
+    <header className="grid grid-cols-2 justify-between items-center py-4 relative">
+      <Link href="/">
+        <Image src={Logo} alt="HashEight Logo" />
+      </Link>
+      <Menu items={items} />
+    </header>
+  );
 }

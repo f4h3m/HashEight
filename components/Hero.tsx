@@ -9,13 +9,13 @@ export default function Hero() {
       <div className="w-[300px] h-[300px] bg-yellow-clr rounded-full absolute -left-20 -top-20 blur-[100px]"></div>
       <div className="w-[200px] h-[200px] bg-cyan-clr rounded-full absolute right-60 -top-20 blur-[100px]"></div>
       <div className="w-[300px] h-[100px] bg-turquoise-clr rounded-full absolute -right-40 top-60 blur-[70px]"></div>
-      <div className="container mx-auto">
+      <div className="container mx-auto relative">
         <Header />
-        <div className="w-1/2 mx-auto h-[500px] justify-center flex flex-col">
+        <div className="xl:w-1/2 md:w-[80%] mx-auto h-[500px] justify-center flex flex-col">
           <div className="flex justify-center">
             <Badge>Get It now</Badge>
           </div>
-          <h1 className="text-center font-bold text-6xl">
+          <h1 className="text-center font-bold text-5xl xl:text-6xl">
             Maximize Productivity, Minimise Effort
           </h1>
           <p className="text-center mt-4 w-2/3 mx-auto">

@@ -32,7 +32,7 @@ export default function Feature() {
     },
   ];
   return (
-    <div className="relative overflow-hidden py-20">
+    <div className="relative overflow-hidden py-20" id="feature">
       <div className="w-[180px] h-[180px] bg-cyan-clr rounded-full absolute -left-[100px] top-1/2 -translate-y-1/2 blur-[100px]"></div>
       <div className="container flex justify-center mx-auto">
         <div className="w-1/2">

@@ -6,7 +6,7 @@ import InfoImg from "@/public/info-img.svg";
 
 export default function Info() {
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative" id="info">
       <div className="container mx-auto flex py-20 gap-5 items-center">
         <div className="w-[180px] h-[100px] bg-yellow-clr rounded-full absolute -right-[100px] top-1/2 -translate-y-1/2 blur-[100px]"></div>
         <div className="w-1/2">

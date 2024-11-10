@@ -31,7 +31,7 @@ export default function Faq() {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative" id="faq">
       <div className="w-[300px] h-[300px] block bg-cyan-clr rounded-full blur-[200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="container mx-auto py-20 flex gap-4 relative">
         <div className="w-1/2 mx-auto">
