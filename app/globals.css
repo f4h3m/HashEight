@@ -20,22 +20,6 @@ body {
   font-family: var(--font-urbanist) !important;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.slide-track {
-  animation-name: scroll;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 20s;
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0px);

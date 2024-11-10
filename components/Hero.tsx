@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="overflow-hidden relative">
       <div className="w-[300px] h-[300px] bg-yellow-clr rounded-full absolute -left-20 -top-20 blur-[100px]"></div>
       <div className="w-[200px] h-[200px] bg-cyan-clr rounded-full absolute right-60 -top-20 blur-[100px]"></div>
-      <div className="w-[300px] h-[200px] bg-turquoise-clr rounded-full absolute -right-40 top-60 blur-[70px]"></div>
+      <div className="w-[300px] h-[100px] bg-turquoise-clr rounded-full absolute -right-40 top-60 blur-[70px]"></div>
       <div className="container mx-auto">
         <Header />
         <div className="w-1/2 mx-auto h-[500px] justify-center flex flex-col">
