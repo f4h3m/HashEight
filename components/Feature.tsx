@@ -1,8 +1,36 @@
 import React from "react";
 import featureImage from "@/public/feature-img.svg";
 import Image from "next/image";
+import AutoplayTab from "./ui/AutoplayTab";
 
 export default function Feature() {
+  const items = [
+    {
+      title: "Invoice Creation",
+      content:
+        "A simple form with the usual suspects - email, password, maybe a username. Think Gmail, Amazon,",
+    },
+    {
+      title: "Payment Automation",
+      content:
+        "The sun dipped below the horizon, painting the sky with vibrant hues of orange and purple as the day surrendered to the embrace of twilight.",
+    },
+    {
+      title: "Access Control",
+      content:
+        "A lone wolf howled at the moon, its mournful cry echoing through the silent, snow-covered forest.",
+    },
+    {
+      title: "3rd Party Integrate",
+      content:
+        "The aroma of freshly baked bread wafted from the bakery, mingling with the sweet scent of blooming jasmine flowers.",
+    },
+    {
+      title: "Best User Experience",
+      content:
+        "Laughter erupted from the children playing in the park, their joyous sounds a welcome contrast to the city usual hum.",
+    },
+  ];
   return (
     <div className="relative overflow-hidden py-20">
       <div className="w-[180px] h-[180px] bg-cyan-clr rounded-full absolute -left-[100px] top-1/2 -translate-y-1/2 blur-[100px]"></div>
@@ -20,12 +48,7 @@ export default function Feature() {
       </div>
       <div className="container mx-auto flex gap-5 mt-14 items-center">
         <div className="w-1/2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi,
-            dolores deserunt deleniti fugiat repellendus non consectetur cum
-            praesentium voluptatem placeat tempore sint sapiente magni nobis
-            maiores ad laudantium esse!
-          </p>
+          <AutoplayTab items={items} interval={3000} />
         </div>
         <div className="w-1/2">
           <Image src={featureImage} alt="feature image" />

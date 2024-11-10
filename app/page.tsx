@@ -16,8 +16,8 @@ export default function Home() {
       <Logo />
       <Info />
       <Feature />
-      <Faq />
       <Testimonial />
+      <Faq />
       <Stat />
       <Cta />
       <Footer />
