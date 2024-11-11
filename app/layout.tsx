@@ -38,11 +38,6 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: Favicon.src }],
 };
 
-import { useEffect } from "react";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 export default function RootLayout({
   children,
 }: {
