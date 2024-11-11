@@ -32,13 +32,12 @@ export default function Feature() {
     },
   ];
   return (
-    <div className="relative overflow-hidden py-20" id="feature">
+    <div className="relative overflow-hidden xl:py-20 py-10" id="feature">
       <div className="w-[180px] h-[180px] bg-cyan-clr rounded-full absolute -left-[100px] top-1/2 -translate-y-1/2 blur-[100px]"></div>
       <div className="container flex justify-center mx-auto">
-        <div className="w-1/2">
-          <h2 className="text-4xl font-bold text-center">
-            The complete automation platform <br />
-            for modern businesses
+        <div className="xl:w-1/2 lg:w-[70%] w-full">
+          <h2 className="md:text-4xl text-3xl font-bold text-center">
+            The complete automation platform for modern businesses
           </h2>
           <p className="text-center mt-4 max-w-[80%] mx-auto">
             Accounts payable isnot just a single click. Its a comprehensive
@@ -46,11 +45,11 @@ export default function Feature() {
           </p>
         </div>
       </div>
-      <div className="container mx-auto flex gap-5 mt-14 items-center">
-        <div className="w-1/2">
+      <div className="container mx-auto flex md:flex-row flex-col flex-col-reverse gap-5 mt-14 items-center">
+        <div className="md:w-1/2">
           <AutoplayTab items={items} interval={3000} />
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <Image src={featureImage} alt="feature image" />
         </div>
       </div>

@@ -7,14 +7,14 @@ import userImg3 from "@/public/user-img3.jpg";
 
 export default function Testimonial() {
   return (
-    <div className="py-20" id="testimonial">
+    <div className="xl:py-20 py-5" id="testimonial">
       <div className="container mx-auto flex justify-center">
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-[92%]">
           <h4 className="text-center uppercase text-turquoise-clr font-semibold">
             Testimonial
           </h4>
-          <h2 className="text-center text-4xl font-bold mb-2">
-            What Do Our Customers says?
+          <h2 className="text-center lg:text-4xl text-3xl font-bold mb-2">
+            What Do Our Customers says us?
           </h2>
           <p className="text-center max-w-[80%] mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
@@ -23,7 +23,7 @@ export default function Testimonial() {
         </div>
       </div>
       <div className="container mx-auto mt-14">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
           <div className="bg-white rounded-md p-5 relative min-h-48 hover:scale-105  duration-300">
             <p className="text-black font-bold text-md">
               Focusing on organization has elevated my work quality and

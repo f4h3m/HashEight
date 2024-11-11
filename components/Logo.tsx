@@ -11,7 +11,7 @@ import Marquee from "./ui/Marquee";
 export default function Logo() {
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
   return (
-    <div className="container mx-auto py-20">
+    <div className="container mx-auto lg:py-20 py-6">
       <h4 className="text-center font-bold mb-10">
         Trusted by Leading Organization
       </h4>

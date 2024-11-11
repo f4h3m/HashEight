@@ -11,14 +11,14 @@ export default function Hero() {
       <div className="w-[300px] h-[100px] bg-turquoise-clr rounded-full absolute -right-40 top-60 blur-[70px]"></div>
       <div className="container mx-auto relative">
         <Header />
-        <div className="xl:w-1/2 md:w-[80%] mx-auto h-[500px] justify-center flex flex-col">
+        <div className="xl:w-1/2 md:w-[80%] mx-auto md:h-[500px] h-[400px] justify-center flex flex-col">
           <div className="flex justify-center">
             <Badge>Get It now</Badge>
           </div>
-          <h1 className="text-center font-bold text-5xl xl:text-6xl">
-            Maximize Productivity, Minimise Effort
+          <h1 className="text-center font-bold xl:text-6xl md:text-5xl text-3xl">
+            Maximize Productivity, Minimize Effort
           </h1>
-          <p className="text-center mt-4 w-2/3 mx-auto">
+          <p className="text-center mt-4 md:w-2/3 mx-auto">
             Hasheight is used by numerous businesses, institutions, and
             recruiters to significantly enhance their screening and recruitment
             procedures.

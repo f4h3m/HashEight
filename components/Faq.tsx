@@ -33,11 +33,10 @@ export default function Faq() {
   return (
     <div className="relative" id="faq">
       <div className="w-[300px] h-[300px] block bg-cyan-clr rounded-full blur-[200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="container mx-auto py-20 flex gap-4 relative">
-        <div className="w-1/2 mx-auto">
+      <div className="container mx-auto xl:py-20 py-10 flex gap-4 relative">
+        <div className="lg:w-1/2 w-full mx-auto">
           <h1 className="text-4xl font-bold text-center">
-            What would you like to <br />
-            know about Us?
+            What would you like to know about Us?
           </h1>
           <p className="text-center mb-14 mt-4">
             Find answers to commonly asked questions about our products,
