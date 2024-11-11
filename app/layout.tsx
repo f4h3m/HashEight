@@ -30,10 +30,18 @@ const urbanist = localFont({
   variable: "--font-urbanist",
 });
 
+import Favicon from "/public/favicon.svg";
+
 export const metadata: Metadata = {
   title: "HashEight | Nextjs Template",
   description: "HashEight Nextjs Template",
+  icons: [{ rel: "icon", url: Favicon.src }],
 };
+
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function RootLayout({
   children,

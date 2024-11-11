@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="grid grid-cols-2 justify-between items-center py-4 relative">
       <Link href="/">
-        <Image src={Logo} alt="HashEight Logo" />
+        <Image src={Logo} alt="HashEight Logo" width="200" />
       </Link>
       <Menu items={items} />
     </header>
