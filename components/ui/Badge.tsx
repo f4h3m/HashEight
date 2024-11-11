@@ -7,7 +7,7 @@ interface BadgeProps {
 
 const Badge: React.FC<BadgeProps> = ({ children }) => {
   return (
-    <div className="bg-white text-black text-[12px] font-bold px-6 rounded-full uppercase py-1 pr-4 mb-5 flex items-center">
+    <div className="bg-white text-black text-[12px] font-bold px-6 rounded-full uppercase py-1 pr-4 mb-5 flex items-center shadow-md shadow-turquoise-clr">
       {children}
       <Rocket size={16} className="ml-2" />
     </div>
